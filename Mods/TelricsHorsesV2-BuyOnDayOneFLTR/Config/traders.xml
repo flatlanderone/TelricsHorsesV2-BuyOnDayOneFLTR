@@ -1,15 +1,20 @@
 <BuyTelricsHorsesOnDayOne>
 
 <!-- Set all horses to be available at all game stages. -->
-<set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier0']">
-	<entry min="1" max="9999" quality="0"/>
-</set>
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+
+<append xpath="/traders/traderstage_templates">
+		<traderstage_template name="horseFLTR">
+			<entry min="1" max="999999" quality="0"/>
+		</traderstage_template>
+</append>
+
+<!-- Set all horses to always available for sale. -->
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
 			<item name="vehicleLightBrownHorsePlaceable"/>
 			<item name="vehicleDarkBrownHorsePlaceable"/>
 			<item name="vehicleMilkBrownHorsePlaceable"/>
 			<item name="vehicleWhiteDotHorsePlaceable"/>
 			<item name="vehicleWhiteHorsePlaceable"/>
 			<item name="vehicleYellowHorsePlaceable"/>
-		</append>
+</append>
 </BuyTelricsHorsesOnDayOne>
