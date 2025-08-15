@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="V2BuyOnDayTelricsHorsesFLTR" />
+	<DisplayName value="Buy Telric's Horses On Day One (V2)" />
+	<Description value="All Telric's Horses can be purchased from day 1." />
+	<Author value="flatlander" />
+	<Version value="0.1.0.0" />
+	<Website value="https://github.com/flatlanderone/" />
+</xml>
